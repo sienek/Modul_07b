@@ -30,9 +30,9 @@ module.exports = function(grunt) {
         tasks: ['sass'],
         options: {
             spawn: false,
-        },
-    }
-}
+        	},
+    	}
+	}
 
   });
   // Load the plugins tasks
@@ -40,5 +40,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   // Default task(s).
-  grunt.registerTask('default', ['sass', 'imagemin']);
+  grunt.registerTask('default', ['sass', 'imagemin', 'watch']);
 };
