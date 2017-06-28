@@ -1,0 +1,28 @@
+{
+  "name": "modul_07b",
+  "version": "1.0.0",
+  "description": "Project for ambitious 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "kodilla-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sienek/Modul_07b.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Daniel Sienkiewicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sienek/Modul_07b/issues"
+  },
+  "homepage": "https://github.com/sienek/Modul_07b#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
